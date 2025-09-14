@@ -1,0 +1,8 @@
+- name: Install java packages
+  become: yes
+  yum:
+    name:
+      - "java-{{ java_version }}-openjdk"
+      - "java-{{ java_version }}-openjdk-devel"
+      - maven
+    state: present
