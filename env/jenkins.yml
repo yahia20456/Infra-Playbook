@@ -1,0 +1,3 @@
+sudo_users:
+  - name: devops
+    passwd: no
