@@ -1,0 +1,10 @@
+jenkins_key_rpm: "https://pkg.jenkins.io/redhat-stable/jenkins.io.key"
+repos:
+  jenkins:
+    name: "Jenkins"
+    url: "https://pkg.jenkins.io/redhat-stable/"
+    description: "Jenkins from Yum repo"
+
+softwares:
+  jenkins:
+    name: "jenkins"

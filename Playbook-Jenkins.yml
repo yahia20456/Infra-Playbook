@@ -2,3 +2,4 @@
   roles:
     - sudo
     - java
+    - jenkins
